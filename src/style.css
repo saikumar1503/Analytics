@@ -1,0 +1,129 @@
+/* src/styles/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* General Container */
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header__title {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .header__nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .header__nav ul li {
+    display: flex;
+    margin: 0 15px;
+  }
+  
+  .header__nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .header__nav ul li a:hover {
+    color: #e94e77;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background: url('https://www.sliderrevolution.com/wp-content/uploads/2024/01/clothing-website-design.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero__title {
+    font-size: 36px;
+    margin: 0 0 20px;
+  }
+  
+  .hero__subtitle {
+    font-size: 22px;
+    margin: 0 0 30px;
+  }
+  
+  .hero__cta {
+    display: inline-block;
+    background-color: #e94e77;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero__cta:hover {
+    background-color: #d73a5e;
+  }
+  
+  /* Content Section Styles */
+  .content {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  
+  .content__title {
+    font-size: 28px;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  .content__text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer__text {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  
